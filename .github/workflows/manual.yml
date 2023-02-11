@@ -39,7 +39,7 @@ jobs:
       uses: Azure/arm-deploy@1.0.4
       with:
         # Provide the scope of the deployment. Valid values are: 'resourcegroup', 'managementgroup', 'subscription'
-
+        template: ./ARM-Templates/container-webapp-template.json
         # Provide the name of a resource group, only required for resource Group deployments.
         resourceGroupName: rg-devarsh
         # Specify the path or URL to the Azure Resource Manager template.
