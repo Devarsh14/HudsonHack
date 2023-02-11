@@ -45,4 +45,4 @@ jobs:
         # Provide the name of a resource group, only required for resource Group deployments.
         resourceGroupName: rg-devarsh
         # Specify the path or URL to the Azure Resource Manager template.
-        parameters: webAppName=<Your unique webapp prefix>-${{ env.targetEnv }}
+        parameters: webAppName=dev14devops-${{ env.targetEnv }}
