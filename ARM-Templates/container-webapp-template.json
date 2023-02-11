@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "chdevops-dev",
+            "defaultValue": "dev14devops-dev",
             "type": "String"
         },
         "hostingPlanName": {
